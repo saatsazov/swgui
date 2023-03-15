@@ -83,7 +83,7 @@ func IndexTpl(assetsBase, faviconBase string, cfg swgui.Config) string {
             background: #fafafa;
         }
     </style>
-    <link href="` + assetsBase + `swagger-ui/SwaggerDark.css" rel='stylesheet' media='screen' type='text/css' />
+    <link href="` + assetsBase + `SwaggerDark.css" rel='stylesheet' media='screen' type='text/css' />
 </head>
 
 <body>
