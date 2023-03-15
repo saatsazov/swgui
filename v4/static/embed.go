@@ -10,5 +10,5 @@ import (
 
 // FS holds embedded static assets.
 //
-//go:embed *.png *.gz
+//go:embed *.png *.gz *.css
 var FS embed.FS
