@@ -7,4 +7,4 @@ assignees: ''
 
 ---
 
-Please use discussions https://github.com/swaggest/swgui/discussions/categories/q-a to make your question more discoverable by other folks.
+Please use discussions https://github.com/saatsazov/swgui/discussions/categories/q-a to make your question more discoverable by other folks.

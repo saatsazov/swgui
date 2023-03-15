@@ -7,4 +7,4 @@ assignees: ''
 
 ---
 
-Please use discussions https://github.com/swaggest/swgui/discussions/categories/ideas to share feature ideas.
+Please use discussions https://github.com/saatsazov/swgui/discussions/categories/ideas to share feature ideas.

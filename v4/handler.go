@@ -4,8 +4,8 @@ package v4
 import (
 	"net/http"
 
-	"github.com/swaggest/swgui"
-	"github.com/swaggest/swgui/internal"
+	"github.com/saatsazov/swgui"
+	"github.com/saatsazov/swgui/internal"
 )
 
 // Handler handles swagger UI request.

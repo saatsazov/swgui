@@ -1,6 +1,6 @@
 # Swagger UI
 
-[![GoDevDoc](https://img.shields.io/badge/dev-doc-00ADD8?logo=go)](https://pkg.go.dev/github.com/swaggest/swgui)
+[![GoDevDoc](https://img.shields.io/badge/dev-doc-00ADD8?logo=go)](https://pkg.go.dev/github.com/saatsazov/swgui)
 
 Package `swgui` (Swagger UI) provides HTTP handler to serve Swagger UI. All assets are embedded in Go source code, so
 just build and run.
@@ -30,8 +30,8 @@ package main
 import (
 	"net/http"
 
-	"github.com/swaggest/swgui/v3emb" // For go1.16 or later.
-	// "github.com/swaggest/swgui/v3" // For go1.15 and below.
+	"github.com/saatsazov/swgui/v3emb" // For go1.16 or later.
+	// "github.com/saatsazov/swgui/v3" // For go1.15 and below.
 )
 
 func main() {
@@ -40,14 +40,14 @@ func main() {
 }
 ```
 
-If you use `go1.16` or later, you can import natively embedded assets with `"github.com/swaggest/swgui/v3emb"`, it may
+If you use `go1.16` or later, you can import natively embedded assets with `"github.com/saatsazov/swgui/v3emb"`, it may
 help to lower application memory usage.
 
 ## Use CDN for assets
 
-In order to reduce binary size you can import `github.com/swaggest/swgui/v3cdn` to use CDN hosted assets.
+In order to reduce binary size you can import `github.com/saatsazov/swgui/v3cdn` to use CDN hosted assets.
 
-Also you can use `swguicdn` build tag to enable CDN mode for `github.com/swaggest/swgui/v3` import.
+Also you can use `swguicdn` build tag to enable CDN mode for `github.com/saatsazov/swgui/v3` import.
 
 Be aware that CDN mode may be considered inappropriate for security or networking reasons.
 
@@ -55,7 +55,7 @@ Be aware that CDN mode may be considered inappropriate for security or networkin
 
 Install `swgui-server`
 
-    go get github.com/swaggest/swgui/...
+    go get github.com/saatsazov/swgui/...
 
 Start server
 

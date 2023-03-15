@@ -4,8 +4,8 @@ package v4cdn
 import (
 	"net/http"
 
-	"github.com/swaggest/swgui"
-	"github.com/swaggest/swgui/internal"
+	"github.com/saatsazov/swgui"
+	"github.com/saatsazov/swgui/internal"
 )
 
 // Handler handle swagger UI request.

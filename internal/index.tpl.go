@@ -4,7 +4,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/swaggest/swgui"
+	"github.com/saatsazov/swgui"
 )
 
 // IndexTpl creates page template.

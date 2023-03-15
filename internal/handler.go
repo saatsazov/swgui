@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/swaggest/swgui"
+	"github.com/saatsazov/swgui"
 )
 
 // Handler handles swagger UI request.

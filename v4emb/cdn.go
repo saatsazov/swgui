@@ -6,7 +6,7 @@ package v4emb
 import (
 	"net/http"
 
-	"github.com/swaggest/swgui/v4cdn"
+	"github.com/saatsazov/swgui/v4cdn"
 )
 
 var staticServer http.Handler

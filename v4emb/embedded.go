@@ -4,7 +4,7 @@
 package v4emb
 
 import (
-	"github.com/swaggest/swgui/v4/static"
+	"github.com/saatsazov/swgui/v4/static"
 	"github.com/vearutop/statigz"
 )
 
